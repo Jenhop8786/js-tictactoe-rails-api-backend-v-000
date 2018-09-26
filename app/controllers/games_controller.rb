@@ -34,7 +34,4 @@ class GamesController < ApplicationController
   def game_params
     params.permit(state: [])
   end
-
-end
-
 end
